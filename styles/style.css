@@ -37,7 +37,7 @@ html {
   border-bottom: solid 1px;
 }
 
-.link__hover-bold:hover {
+.link:hover {
   font-weight: bold;
   transition: font-weight 0.3s;
 }
@@ -217,6 +217,7 @@ html {
   flex-direction: column;
   justify-content: space-between;
   background-size: cover;
+  background-position: center;
   transition: 0.5s;
 }
 
@@ -371,6 +372,7 @@ html {
 
 .footer__social-icon {
   height: 48px;
+  width: 48px;
   border-radius: 50%;
 }
 
